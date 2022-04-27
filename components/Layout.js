@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 function Layout() {
   return (
     
-    <div className="dark:bg-slate-900 text-center sm:text-left inline-block">
+    <div className="dark:bg-slate-900 text-center inline-block  sm:w-full md:w-full lg:w-full ">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <Nav />
         <Main />
