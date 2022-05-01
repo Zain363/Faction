@@ -17,7 +17,7 @@ function Layout() {
         <div className="m-auto w-5/12 flex justify-center items-center h-1">
         <Form />
         </div>
-        <div className=" flex justify-center p-10 m-8 ">
+        <div className=" justify-center p-10 m-8 ">
         <Features />
         <Footer />
         </div>
