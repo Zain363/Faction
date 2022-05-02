@@ -10,22 +10,27 @@ import Footer from '../components/Footer'
 function Layout() {
   return (
     
-    <><meta
-      name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' /><div className="dark:bg-slate-900 min-h-screen min-w-screen text-center inline-block  sm:w-full md:w-full lg:w-full dark:text-white ">
-        <Nav />
+    
+    <div className="dark:bg-slate-900 min-h-screen min-w-screen text-center inline-block  sm:w-full md:w-full lg:w-full dark:text-white "> 
+        <Nav/> 
         <Main />
         <div className="m-auto w-5/12 flex justify-center items-center h-1">
-          <Form />
+        <Form />
         </div>
         <div className="  justify-center p-10 m-8 ">
-          <Features />
-          <div className="">
-            <Footer />
-          </div>
-
+        <Features />
+        <div className="">
+        <Footer />
         </div>
 
+        </div>
+       
+        <meta 
+    name='viewport' 
+    content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+/>
+        
+        
         
         
         
