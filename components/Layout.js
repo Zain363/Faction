@@ -11,7 +11,7 @@ function Layout() {
   return (
     
     
-    <div className="dark:bg-slate-900 min-h-screen min-w-screen text-center inline-block  sm:w-full md:w-full lg:w-full dark:text-white "> 
+    <div className=" shrink dark:bg-slate-900 min-h-screen min-w-screen text-center inline-block  sm:w-full md:w-full lg:w-full dark:text-white "> 
         <Nav/> 
         <Main />
         <div className="m-auto w-5/12 flex justify-center items-center h-1">
