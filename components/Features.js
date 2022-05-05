@@ -12,7 +12,7 @@ function Features() {
     
     <div>
           <div className="flex font-bold text-2xl grid place-items-center italic dark:text-white"> Interact with your Web3 community</div>
-          <div className="flex  italic dark:text-slate-400">Launch NFT Projects, build or join existing communities</div>
+          <div className="flex  italic dark:text-slate-400">Launch NFT Projects, Create DAO and build or join existing communities</div>
         </div>
         <div>
           <div className="flex font-bold text-2xl grid place-items-center italic dark:text-white"> Exclusive Token-Gated Communities</div>
